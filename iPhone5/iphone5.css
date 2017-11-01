@@ -143,7 +143,8 @@ th, td {
 }
 	
 
-div.nightshot2g{ 
+div.nightshot2g,div.nightshot3g,div.nightshot3gs,div.nightshot4,div.nightshot4s,div.nightshot5s,div.nightshot6,div.nightshot7,div.nightshot8{ 
+    margin-bottom: 2%;
     background: white;
     border: 1px solid gray;
     display: block;
@@ -154,7 +155,7 @@ div.nightshot2g{
     overflow: hidden;
     position: relative; 
 }
-div.before1, div.after{ 
+div.before1, div.before2,div.before3,div.before4,div.before5,div.before6,div.before7,div.after,div.after1,div.after2,div.after3,div.after4{ 
     width: 100%;
     height: 100%;
     top: 0;
@@ -165,7 +166,7 @@ div.before1, div.after{
     z-index: 100;
 }
  
-div.after{
+div.after,div.after2,div.after3,div.after4{
     z-index: 1; 
 }
  
@@ -173,236 +174,41 @@ div.nightshot2g:hover div.before1{
     width: 0; 
 }
 
-div.nightshot3g{ 
-    background: white;
-    border: 1px solid gray;
-    display: block;
-    margin-left: 50px;
-    width: 1000px; 
-    height: 500px; 
-    overflow: hidden;
-    position: relative; 
-}
-div.before2, div.after{ 
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    overflow: hidden;
-    transition: all .5s ease-in-out; 
-    z-index: 100;
-}
- 
-div.after{
-    z-index: 1; 
-}
- 
 div.nightshot3g:hover div.before2{ 
     width: 0; 
-}
-
-div.nightshot3gs{ 
-    background: white;
-    border: 1px solid gray;
-    display: block;
-    margin-left: 50px;
-    width: 1000px;
-    height: 500px; 
-    overflow: hidden;
-    position: relative; 
-}
-div.before3, div.after{ 
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    overflow: hidden;
-    transition: all .5s ease-in-out; 
-    z-index: 100;
-}
- 
-div.after{
-    z-index: 1; 
 }
  
 div.nightshot3gs:hover div.before3{ 
     width: 0; 
 }
 
-div.nightshot4{ 
-    background: white;
-    border: 1px solid gray;
-    display: block;
-    margin-left: 50px;
-    width: 1000px; 
-    height: 500px; 
-    overflow: hidden;
-    position: relative; 
-}
-div.before4, div.after{ 
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    overflow: hidden;
-    transition: all .5s ease-in-out; 
-    z-index: 100;
-}
- 
-div.after{
-    z-index: 1; 
-}
- 
 div.nightshot4:hover div.before4{ 
     width: 0; 
 }
 
-div.nightshot4s{ 
-    background: white;
-    border: 1px solid gray;
-    display: block;
-    margin-left: 50px;
-    width: 1000px;
-    height: 500px; 
-    overflow: hidden;
-    position: relative; 
-}
-div.before5, div.after{ 
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    overflow: hidden;
-    transition: all .5s ease-in-out; 
-    z-index: 100;
-}
- 
-div.after{
-    z-index: 1; 
-}
- 
 div.nightshot4s:hover div.before5{ 
     width: 0; 
 }
-div.nightshot5s{ 
-    background: white;
-    border: 1px solid gray;
-    display: block;
-    margin-left: 50px;
-    width: 1000px;
-    height: 500px; 
-    overflow: hidden;
-    position: relative; 
-}
-div.before6, div.after1{ 
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    overflow: hidden;
-    transition: all .5s ease-in-out; 
-    z-index: 100;
-}
- 
-div.after1{
-    z-index: 1; 
-}
- 
+
 div.nightshot5s:hover div.before6{ 
     width: 0; 
 }
-div.nightshot6{ 
-    background: white;
-    border: 1px solid gray;
-    display: block;
-    margin-left: 50px;
-    width: 1000px;
-    height: 500px; 
-    overflow: hidden;
-    position: relative; 
-}
-div.before6, div.after2{ 
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    overflow: hidden;
-    transition: all .5s ease-in-out; 
-    z-index: 100;
-}
- 
-div.after2{
-    z-index: 1; 
-}
- 
+
 div.nightshot6:hover div.before6{ 
     width: 0; 
 }
 
-div.nightshot7{ 
-    background: white;
-    border: 1px solid gray;
-    display: block;
-    margin-left: 50px;
-    width: 1000px;
-    height: 500px; 
-    overflow: hidden;
-    position: relative; 
-}
-div.before6, div.after3{ 
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    overflow: hidden;
-    transition: all .5s ease-in-out; 
-    z-index: 100;
-}
- p {
- 	line-height: 140%;
- }
-div.after3{
-    z-index: 1; 
-}
- 
 div.nightshot7:hover div.before6{ 
     width: 0; 
 }
 
-div.nightshot8{ 
-    background: white;
-    border: 1px solid gray;
-    display: block;
-    margin-left: 50px;
-    width: 1000px;
-    height: 500px; 
-    overflow: hidden;
-    position: relative; 
-}
-div.before7, div.after4{ 
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    overflow: hidden;
-    transition: all .5s ease-in-out; 
-    z-index: 100;
-}
- 
-div.after4{
-    z-index: 1; 
-}
- 
 div.nightshot8:hover div.before7{ 
     width: 0; 
+}
+
+p {
+ 	line-height: 140%;
+    margin-top: -10px;
 }
 
 #camtext {
@@ -439,6 +245,4 @@ text-align: center;
 h2 {
 	font-family: 'PT Sans Narrow', sans-serif;
 }
-p {
-	margin-top: -10px;
-}
+
