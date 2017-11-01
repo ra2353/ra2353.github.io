@@ -42,7 +42,7 @@
 		left: 12%;
 		right: 12%;
 		border-width: .75%;
-		margin-top: 3%;
+		margin-top: 1.5%;
 		box-shadow: 3px 10px 56px 0px rgba(0,0,0,0.65);
 		font-family: 'Titillium Web', sans-serif;
 		text-align: center;
@@ -61,7 +61,7 @@ section {
 		padding-top: 10%;
 		margin-left: -2%;
 		grid-column: 1/2;
-		height:140%;
+		height:136%;
 		border-style: solid;
 		border-color: #303030;
 		background-image: url(iPhone5/iphonebackhome.jpg);
@@ -70,7 +70,7 @@ section {
 		display: inline-block;
 		text-align: center;
 		margin-top: 1%;
-		height: 140%;
+		height: 136%;
 		padding-top: 10%;
 		grid-column: 2/3;
 		border-style: solid;
@@ -82,7 +82,7 @@ section {
 		display: inline-block;
 		text-align: center;
 		margin-top: 1%;
-		height:140%;
+		height:136%;
 		padding-top: 10%;
 		grid-column: 3/4;
 		border-style: solid;
